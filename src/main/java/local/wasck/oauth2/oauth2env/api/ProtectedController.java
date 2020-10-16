@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import local.wasck.oauth2.oauth2env.api.model.User;
 
 @RestController
-@RequestMapping("unprotected")
+@RequestMapping("protected")
 public class ProtectedController {
 
 	@GetMapping
